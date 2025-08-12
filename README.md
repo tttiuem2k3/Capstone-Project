@@ -94,6 +94,16 @@ Hệ thống bao gồm:
 
 ---
 
+## 📚 Tham khảo
+
+- [FastAPI Documentation](https://fastapi.tiangolo.com/) – Framework backend nhẹ, nhanh, mạnh mẽ cho Python.
+- [Hugging Face Transformers](https://huggingface.co/docs/transformers/index) – Thư viện triển khai và huấn luyện các mô hình NLP.
+- [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314) – Phương pháp fine-tuning hiệu quả trên mô hình ngôn ngữ lớn.
+- [ESP32 Official Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/) – Tài liệu chính thức về vi điều khiển ESP32.
+- Các tài liệu y tế uy tín tại Việt Nam, tổng hợp từ hơn **1000 loại bệnh phổ biến**.
+
+---
+
 ## 💻 Hướng dẫn cài đặt & chạy
 
 1. **Clone dự án**
