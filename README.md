@@ -12,9 +12,9 @@
 ## 📜 Giới thiệu
 
 Dự án **Hệ thống thông minh hỗ trợ hỏi đáp về bệnh tật** được thiết kế nhằm:
-- Cung cấp **thông tin y tế chính xác** qua giao tiếp ngôn ngữ tự nhiên.
-- Hỗ trợ **người dùng có hạn chế về thị giác** hoặc khó khăn khi tra cứu thông tin trực tuyến.
-- Tích hợp **AI xử lý ngôn ngữ tự nhiên (NLP)**, **mô hình ngôn ngữ lớn (LLM)** và **phần cứng IoT** để tạo nên trải nghiệm tương tác mượt mà.
+- Cung cấp **thông tin y tế chính xác** qua giao tiếp ngôn ngữ tự nhiên ( tổng hợp từ ~ 1000 loại bệnh phổ biến ở Việt Nam).
+- Hỗ trợ mọi loại người dùng đặc biệt là **người dùng cao tuổi, người tàn tật, người có hạn chế về việc di chuyển** hoặc khó khăn trong việc sử dụng thiết bị công nghệ hoặc khi tra cứu thông tin y tế trực tuyến.
+- Tích hợp **AI xử lý ngôn ngữ tự nhiên (NLP)**, **mô hình ngôn ngữ lớn (LLM)** và **phần cứng IoT** để tạo nên trải nghiệm tương tác mượt mà và tiện dụng.
 
 ---
 
@@ -33,10 +33,9 @@ Dự án **Hệ thống thông minh hỗ trợ hỏi đáp về bệnh tật** �
 ![Sơ đồ kiến trúc hệ thống](./images/kien-truc-he-thong.png)
 
 Hệ thống gồm:
-1. **Thiết bị phần cứng** (ESP32 + màn hình + micro + loa).
-2. **Server xử lý AI** (FastAPI, mô hình NLP).
+1. **Thiết bị phần cứng** (ESP32 + màn hình + micro + loa + Led).
+2. **Server xử lý AI** (Mô hình NLP).
 3. **Các API dịch vụ hỗ trợ** (Speech-to-Text, Text-to-Speech).
-4. **Cơ sở dữ liệu** lưu trữ và quản lý dữ liệu huấn luyện.
 
 ---
 
@@ -52,10 +51,15 @@ Hệ thống gồm:
   - Màn hình TFT LCD 2.4 inch
   - Loa mini
   - LED NeoPixel WS2812
+  - 
+---
+
+## 🖼️ Hình ảnh minh họa
+(Chèn hình ảnh từ báo cáo tại đây)
 
 ---
 
-## 📊 Đánh giá hiệu năng
+## 📊 Kết quả
 
 | Mô hình | BLEU ↑ | ROUGE-2 ↑ | ROUGE-L ↑ |
 |---------|--------|-----------|-----------|
@@ -79,12 +83,16 @@ Hệ thống gồm:
 
 ---
 
-## 🖼️ Hình ảnh minh họa
-(Chèn hình ảnh từ báo cáo tại đây)
+##  📞 Liên hệ
+- 📧 Email: tttiuem2k3@gmail.com
+- 👥 Linkedin: [Thịnh Trần](https://www.linkedin.com/in/thinh-tran-04122k3/)
+- 💬 Zalo - phone: +84 329966939 hoặc +84 336639775
 
 ---
 
-## 👨‍💻 Tác giả
-Trần Tấn Thịnh – AI & IoT Developer
+🌟 **Trần Tấn Thịnh – ĐH Bách Khoa Đà Nẵng – 2025** 🌟
+
+---
+
 
    
