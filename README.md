@@ -98,7 +98,7 @@ The system includes:
 
 The dataset for this project was collected from **Tâm Anh Hospital**'s medical resources, which include articles, reports, and expert-verified health information.
 
-- **Source**: Official medical content from [Tâm Anh Hospital](https://tamanhhospital.vn/)
+- **Source**: Official medical content from [Tâm Anh Hospital]([https://tamanhhospital.vn/](https://tamanhhospital.vn/benh-hoc-a-z/))
 - **Processing**:
   1. Raw medical articles were scraped and cleaned to remove HTML tags, advertisements, and unrelated content.
   2. Content was segmented into disease-specific topics (covering ~1000 common diseases in Vietnam).
