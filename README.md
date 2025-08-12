@@ -13,7 +13,7 @@
 
 Dự án **Hệ thống thông minh hỗ trợ hỏi đáp về bệnh tật** được thiết kế nhằm:
 - Cung cấp **thông tin y tế chính xác** qua giao tiếp ngôn ngữ tự nhiên ( tổng hợp từ ~ 1000 loại bệnh phổ biến ở Việt Nam).
-- Hỗ trợ mọi loại người dùng đặc biệt là **người dùng cao tuổi, người tàn tật, người có hạn chế về việc di chuyển** hoặc khó khăn trong việc sử dụng thiết bị công nghệ hoặc khi tra cứu thông tin y tế trực tuyến.
+- Hỗ trợ mọi loại người dùng đặc biệt là **người dùng cao tuổi, người tàn tật, người có hạn chế về việc di chuyển** hoặc khó khăn trong việc sử dụng thiết bị công nghệ / khi tra cứu thông tin y tế trực tuyến.
 - Tích hợp **AI xử lý ngôn ngữ tự nhiên (NLP)**, **mô hình ngôn ngữ lớn (LLM)** và **phần cứng IoT** để tạo nên trải nghiệm tương tác mượt mà và tiện dụng.
 
 ---
@@ -55,7 +55,21 @@ Hệ thống gồm:
 ---
 
 ## 🖼️ Các hình ảnh
-(Chèn hình ảnh từ báo cáo tại đây)
+
+### 🎨 Thiết kế hệ thống
+| | | | |
+|---|---|---|---|
+| ![](image/1.JPG) | ![](image/2.JPG) | ![](image/3.JPG) | ![](image/4.JPG) |
+
+### 🚧 Giải pháp xây dựng mô hình Deep Learning
+| | | | |
+|---|---|---|---|
+| ![](image/5.JPG) | ![](image/6.JPG) | ![](image/7.JPG) | ![](image/8.JPG) |
+
+### 📊 Kết quả huấn luyện mô hình
+| | |
+|---|---|
+| ![](image/9.JPG) | ![](image/10.JPG) |
 
 ---
 
