@@ -30,7 +30,7 @@ Dự án **Hệ thống thông minh hỗ trợ hỏi đáp về bệnh tật** �
 
 ## 🛠️ Kiến trúc hệ thống
 
-![Sơ đồ kiến trúc hệ thống](./images/kien-truc-he-thong.png)
+![Sơ đồ kiến trúc hệ thống](./Image/1.JPG)
 
 Hệ thống gồm:
 1. **Thiết bị phần cứng** (ESP32 + màn hình + micro + loa + Led).
