@@ -51,10 +51,10 @@ Hệ thống gồm:
   - Màn hình TFT LCD 2.4 inch
   - Loa mini
   - LED NeoPixel WS2812
-  - 
+    
 ---
 
-## 🖼️ Hình ảnh minh họa
+## 🖼️ Các hình ảnh
 (Chèn hình ảnh từ báo cáo tại đây)
 
 ---
