@@ -1,128 +1,145 @@
-# 🤖 Hệ Thống Thông Minh Hỗ Trợ Hỏi Đáp Về Bệnh Tật
+# 🤖 Intelligent System for Disease-Related Question Answering
 
-> Ứng dụng **AI** kết hợp **IoT** để xây dựng hệ thống hỏi đáp tự động về bệnh tật bằng giọng nói, giúp người dùng tiếp cận thông tin y tế **nhanh chóng – chính xác – thân thiện**.
-
----
-
-## ▶️ Video Demo
-📺 Xem video demo hệ thống **[tại đây](https://youtu.be/j2nC14IqkZw)**
+> An **AI** + **IoT**-powered system for automatic disease-related Q&A via voice, helping users access **fast – accurate – user-friendly** medical information.
 
 ---
 
-## 📜 Giới thiệu
-
-Dự án **Hệ thống thông minh hỗ trợ hỏi đáp về bệnh tật** được thiết kế nhằm:
-- Cung cấp **thông tin y tế chính xác** (tổng hợp từ ~ **1000 loại bệnh phổ biến tại Việt Nam**).
-- Hỗ trợ **mọi đối tượng người dùng** – đặc biệt là **người cao tuổi, người khuyết tật, người gặp khó khăn khi di chuyển** hoặc hạn chế trong việc sử dụng thiết bị công nghệ.
-- Tích hợp **AI xử lý ngôn ngữ tự nhiên (NLP)**, **mô hình ngôn ngữ lớn (LLM)** và **thiết bị IoT** để mang lại trải nghiệm **tương tác tự nhiên, dễ dàng và tiện lợi**.
+## ▶️ Demo Video
+📺 Watch the demo video **[here](https://youtu.be/j2nC14IqkZw)**
 
 ---
 
-## 🔧 Tính năng chính
+## 📜 Introduction
 
-- 🗣 **Nhận diện giọng nói (STT)** – Chuyển đổi lời nói thành văn bản.
-- 🤖 **Hỏi đáp tự động (QA)** – Sử dụng **VinaLLaMA 2.7B** và **ViT5** (fine-tune) để trả lời chính xác.
-- 🔊 **Phát lại giọng nói (TTS)** – Đọc to câu trả lời cho người dùng.
-- 💡 **Giao diện phần cứng trực quan** – Màn hình TFT LCD, LED báo trạng thái, micro thu âm, loa phát.
-- 🌐 **Kết nối IoT** – ESP32 giao tiếp với server qua **FastAPI**.
-
----
-
-## 🛠️ Kiến trúc hệ thống
-
-![Sơ đồ kiến trúc hệ thống](./Image/1.JPG)
-
-Hệ thống bao gồm:
-1. **Thiết bị phần cứng** – ESP32 + màn hình + micro + loa + LED.
-2. **Server xử lý AI** – Chạy mô hình NLP & API.
-3. **Dịch vụ hỗ trợ** – Speech-to-Text, Text-to-Speech.
+The **Intelligent System for Disease-Related Question Answering** is designed to:
+- Provide **accurate medical information** (compiled from ~ **1000 common diseases in Vietnam**).
+- Support **all types of users** – especially **elderly people, people with disabilities, those with mobility issues**, or individuals who find it difficult to use technology devices.
+- Integrate **Natural Language Processing (NLP)**, **Large Language Models (LLM)**, and **IoT hardware** to deliver an **interactive, seamless, and user-friendly** experience.
 
 ---
 
-## 🧠 Công nghệ sử dụng
+## 🔧 Key Features
 
-- **Ngôn ngữ lập trình**: Python, C++ (Arduino ESP32)
+- 🗣 **Speech-to-Text (STT)** – Convert spoken language into text.
+- 🤖 **Automated Q&A** – Powered by **VinaLLaMA 2.7B** and **ViT5** (fine-tuned) for accurate answers.
+- 🔊 **Text-to-Speech (TTS)** – Read answers aloud to the user.
+- 💡 **Intuitive Hardware Interface** – TFT LCD display, status LED, microphone, and speaker.
+- 🌐 **IoT Connectivity** – ESP32 communicates with the server via **FastAPI**.
+
+---
+
+## 🛠️ System Architecture
+
+![System Architecture Diagram](./Image/1.JPG)
+
+The system includes:
+1. **Hardware Device** – ESP32 + screen + microphone + speaker + LED.
+2. **AI Processing Server** – Running NLP models & APIs.
+3. **Supporting Services** – Speech-to-Text, Text-to-Speech.
+
+---
+
+## 🧠 Technologies Used
+
+- **Programming Languages**: Python, C++ (Arduino ESP32)
 - **Framework**: FastAPI
-- **Mô hình AI**: VinaLLaMA 2.7B, ViT5
-- **Kỹ thuật tối ưu**: QLoRA, Fine-tuning, Prompt Tuning
-- **Phần cứng**:
+- **AI Models**: VinaLLaMA 2.7B, ViT5
+- **Optimization Techniques**: QLoRA, Fine-tuning, Prompt Tuning
+- **Hardware**:
   - ESP32
-  - Micro INMP441
-  - Màn hình TFT LCD 2.4 inch
-  - Loa mini
-  - LED NeoPixel WS2812
+  - INMP441 Microphone
+  - 2.4-inch TFT LCD Display
+  - Mini Speaker
+  - NeoPixel WS2812 LED
 
 ---
 
-## 🖼️ Các hình ảnh
+## 🖼️ Images
 
-### 🎨 Thiết kế hệ thống
+### 🎨 System Design
 | | | | |
 |---|---|---|---|
 | ![](Image/11.JPG) | ![](Image/2.JPG) | ![](Image/3.JPG) | ![](Image/4.JPG) |
 
-### 🚧 Giải pháp xây dựng mô hình Deep Learning
+### 🚧 Deep Learning Model Development
 | | | | |
 |---|---|---|---|
 | ![](Image/5.JPG) | ![](Image/6.JPG) | ![](Image/7.JPG) | ![](Image/8.JPG) |
 
-### 📊 Kết quả huấn luyện mô hình
+### 📊 Model Training Results
 | | |
 |---|---|
 | ![](Image/9.JPG) | ![](Image/10.JPG) |
 
 ---
 
-## 🏆 Kết quả
+## 🏆 Results
 
-### 📈 Đánh giá định lượng
-| Mô hình | BLEU ↑ | ROUGE-2 ↑ | ROUGE-L ↑ |
-|---------|--------|-----------|-----------|
-| ViT5    | 0.92   | 0.88      | 0.90      |
+### 📈 Quantitative Evaluation
+| Model | BLEU ↑ | ROUGE-2 ↑ | ROUGE-L ↑ |
+|-------|--------|-----------|-----------|
+| ViT5  | 0.92   | 0.88      | 0.90      |
 | **VinaLLaMA 2.7B** | **0.9493** | **0.91**  | **0.93** |
 
 ---
 
-### 📉 Đánh giá định tính (thang điểm 1 – 5)
+### 📉 Qualitative Evaluation (Scale 1 – 5)
 
-| **Tiêu chí** | **ViT5-Base** | **VinaLLaMA 2.7B** |
+| **Criteria** | **ViT5-Base** | **VinaLLaMA 2.7B** |
 |--------------|--------------|--------------------|
-| Độ chính xác về y khoa | **5** | 4 |
-| Mức độ rõ ràng và dễ hiểu | 4 | **5** |
-| Sự tự nhiên và linh hoạt diễn đạt | 3 | **5** |
-| Mức độ hài lòng tổng thể | 4 | 4 |
+| Medical accuracy | **5** | 4 |
+| Clarity & understandability | 4 | **5** |
+| Naturalness & flexibility of expression | 3 | **5** |
+| Overall satisfaction | 4 | 4 |
 
 ---
 
-## 📚 Tham khảo
+## 📂 Data
 
-- [FastAPI Documentation](https://fastapi.tiangolo.com/) – Framework backend nhẹ, nhanh, mạnh mẽ cho Python.
-- [Hugging Face Transformers](https://huggingface.co/docs/transformers/index) – Thư viện triển khai và huấn luyện các mô hình NLP.
-- [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314) – Phương pháp fine-tuning hiệu quả trên mô hình ngôn ngữ lớn.
-- [ESP32 Official Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/) – Tài liệu chính thức về vi điều khiển ESP32.
-- Các tài liệu y tế uy tín tại Việt Nam, tổng hợp từ hơn **1000 loại bệnh phổ biến**.
+The dataset for this project was collected from **Tâm Anh Hospital**'s medical resources, which include articles, reports, and expert-verified health information.
+
+- **Source**: Official medical content from [Tâm Anh Hospital](https://tamanhhospital.vn/)
+- **Processing**:
+  1. Raw medical articles were scraped and cleaned to remove HTML tags, advertisements, and unrelated content.
+  2. Content was segmented into disease-specific topics (covering ~1000 common diseases in Vietnam).
+  3. An automated question generation and answer extraction pipeline was applied, using NLP techniques and manual review to ensure medical accuracy.
+- **Output**:  
+  - ~20,000 **high-quality** question–answer pairs about diseases.
+  - Each Q&A is **contextually relevant**, **medically accurate**, and **easy to understand**.
+  - Questions cover multiple aspects of each disease: causes, symptoms, prevention, treatment, and follow-up care.
+
+> 🩺 The dataset plays a crucial role in fine-tuning the **ViT5** and **VinaLLaMA 2.7B** models for Vietnamese medical question answering.
 
 ---
 
-## 💻 Hướng dẫn cài đặt & chạy
+## 📚 References
 
-1. **Clone dự án**
+- [FastAPI Documentation](https://fastapi.tiangolo.com/) – Lightweight, fast, and powerful Python backend framework.
+- [Hugging Face Transformers](https://huggingface.co/docs/transformers/index) – Library for implementing and training NLP models.
+- [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314) – Efficient fine-tuning method for large language models.
+- [ESP32 Official Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/) – Official documentation for the ESP32 microcontroller.
+
+---
+
+## 💻 Installation & Running Guide
+
+1. **Clone the project**
    ```bash
    git clone https://github.com/username/medical-qa-ai.git
    cd medical-qa-ai
-2. **Cài đặt môi trường**
+2. **Install dependencies**
    ```bash
    pip install -r requirements.txt
-3. **Chạy server**
+3. **Run the server**
    ```bash
    uvicorn main:app --reload
 
 ---
 
-##  📞 Liên hệ
+##  📞 Contact
 - 📧 Email: tttiuem2k3@gmail.com
 - 👥 Linkedin: [Thịnh Trần](https://www.linkedin.com/in/thinh-tran-04122k3/)
-- 💬 Zalo - phone: +84 329966939 hoặc +84 336639775
+- 💬 Zalo / Phone: +84 329966939 | +84 336639775
 
 ---
 
