@@ -90,9 +90,5 @@ Hệ thống gồm:
 
 ---
 
-🌟 **Trần Tấn Thịnh – ĐH Bách Khoa Đà Nẵng – 2025** 🌟
-
----
-
 
    
