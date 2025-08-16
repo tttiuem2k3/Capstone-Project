@@ -80,8 +80,8 @@ The system includes:
 ### 📈 Quantitative Evaluation
 | Model | BLEU ↑ | ROUGE-2 ↑ | ROUGE-L ↑ |
 |-------|--------|-----------|-----------|
-| ViT5  | 0.92   | 0.88      | 0.90      |
-| **VinaLLaMA 2.7B** | **0.9493** | **0.91**  | **0.93** |
+| ViT5  | 82.03   | 0.9242      | 0.9359      |
+| VinaLLaMA 2.7B | 32.25 | 0.3201  | 0.4972 |
 
 ---
 
